@@ -8,7 +8,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
     }
-
+    
+    func setupView() {
+        view.backgroundColor = .systemRed
+    }
 
 }
 
